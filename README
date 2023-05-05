@@ -1,0 +1,13 @@
+Learning NumPy with computer vision - Simon Steffens
+
+This course material introduces the library numpy in the context of computer vision. It is intended  for kids at an intermediate level of proficiency in Python. Kids should be familiar with basic concepts such as variables, loops, and lists. TO introduce arrays, the first exercises focus on lists. If kids have never heard of lists, I suggest to recap the concept before starting. After the initial block of exercises, the notebook explains the basic idea of numpy and why it's useful. Kids can first go through this at their own pace, with an optional collective recap session where these concepts are reviewed. The followup notebooks have a similar style with short explanatory sections followed by numerous exercises. 
+
+In contrasts to many resources on the web, this material is very much focused on doing exercises to understand the concept. These exercises increase in difficulty step by step and become increaingly open ended towards the end so that kids can follow their curiosity. For each of the three jupyter notebook files, there is a solutions_included version to check the correct answers. 
+
+It is suggested to have a look through the solution_included files in preparation to teach this material.
+
+Technical note: The course material includes an environment file (numpy-cv.yml) for installing the required libraries. For the first notebook, only numpy, for the second skimage, and for the third open-cv. It is suggested to install python through the anaconda distribution, so that the environment can easily be cloned using the 2 following commands:
+
+conda env create -n numpy-cv --file numpy-cv.yml
+conda activate numpy-cv
+
